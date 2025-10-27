@@ -59,3 +59,36 @@ if membership.lower() == "yes":
     price=price*95/100
     print("Member discount applied")
 print("the final price is:", price)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
