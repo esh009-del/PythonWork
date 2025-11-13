@@ -7,3 +7,6 @@ if gender=="male":
     print("Welcome Mr.",name)
 else:
     print("Welcome Ms.",name)
+
+
+print("Have a nice day",name)
