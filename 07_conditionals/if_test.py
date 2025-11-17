@@ -14,3 +14,4 @@ if variable2==gender:
     print("Correct")
 else:
     print("wyoab")
+print("Have a nice day",variable1)
