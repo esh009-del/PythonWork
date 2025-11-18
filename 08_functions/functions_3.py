@@ -28,9 +28,9 @@ def display_details():
 
 def display_details(name, age,  email , mobile):
     print("name :", name )
-print(f"age: { age }")
-print("email :", email )
-print("mobile :", mobile )
+    print(f"age: { age }")
+    print("email :", email )
+    print("mobile :", mobile )
 
 display_details("John Doe", 20, " jdoe.gmail.com", "123-456-7890")
 display_details("Jane Smith", 22, "jsmith.gmail.com", "098-765-4321")
@@ -46,4 +46,3 @@ def display_details(name, age, email="Not Provided", mobile="Not Provided"):
     print("mobile :", mobile )
 display_details("Alice", 19)
 #will work fine now as email and mobile have default valuesw
- #####isnt working######

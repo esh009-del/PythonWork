@@ -20,14 +20,14 @@ print(circ(2,3,4))
 #we have a list of numbers
 #we want to get a list with eaqch number squared
 
-
+numbers = [1, 2 , 3 , 4 , 5]
 squared_numbers= []
+# for number in numbers:
+#     squared_numbers.append(number **2)
+
 for number in numbers:
     squared_numbers.append(number **2)
-
-for number in numbers:
-    squared_numbers.append(square_numbers(number))
-print(squared_numbers)  
+    print(squared_numbers)  
 
 numbers=[1,2,3,4,5] #input list of numbers
 def square_the_number(num): #
@@ -53,4 +53,3 @@ squares_map=map(square_the_number, numbers)
 squares_list=list(squares_map)
 print(squares_list)
 
-###### not working code below ######
