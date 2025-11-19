@@ -7,7 +7,7 @@ import random
 random_integer=random.randint(1, 10)
 chances= 3
 
-for i in range(3):
+for i in range(chances):
     user_input=int(input("what number do you guess"))
     if random_integer > user_input:
         print("too big ")
@@ -20,5 +20,14 @@ for i in range(3):
     elif random_integer == user_input:
         print("Correct")
         print("you have " , chances ,  "chances left")
+    
+    elif chances == 0:
+        print("You lost with", chances , "chances left")
+    
     else:
         print("Invalid input")
+
+    
+print("Thanks for playing ")
+
+    
