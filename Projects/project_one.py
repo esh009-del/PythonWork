@@ -5,7 +5,20 @@ print("You will have to guess the number ")
 
 import random 
 random_integer=random.randint(1, 10)
-
+chances= 3
 
 for i in range(3):
-    user_input=int(input(""))
+    user_input=int(input("what number do you guess"))
+    if random_integer > user_input:
+        print("too big ")
+        chances=chances-1
+        print(chances ,"chances left")
+    elif random_integer < user_input:
+        print("Too small")
+        chances=chances -1 
+        print(chances ,"chances left")
+    elif random_integer == user_input:
+        print("Correct")
+        print("you have " , chances ,  "chances left")
+    else:
+        print("Invalid input")
