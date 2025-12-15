@@ -1,23 +1,4 @@
-<html>
-    <head>
-        <title>Page Title 
-- My Website    
-        </title>
-    </head>
-    <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is a sample page.</p>
-        <li>   </li> <br>
-        <li></li>
-         <br>            
-        <li> </li> 
-         <br>
-        <li> </li>
-         <br>
-        <li></li>
-         <br>
-        <li></li><br>
-        <li></li> <br>
-    </li>
-    </body>
-</html>
+create a username_math module with functions to add, subtract, multiply and divide.
+
+write main.py, import the module and call the functions defined in the module.
+ 
