@@ -1,0 +1,184 @@
+<html>
+<head>
+  <title>Computer Science Checklist</title>
+</head>
+<body>
+  <h1>My checklist for computer science</h1>
+  <ol>
+    <!-- COMPONENT 01 – COMPUTER SYSTEMS & HARDWARE -->
+    <li>
+      <input type="checkbox" id="component01">
+      <label for="component01"><strong>Component 01 – Computer Systems & Hardware</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp01a"><label for="comp01a">Components of a computer system</label></li>
+        <li><input type="checkbox" id="comp01b"><label for="comp01b">CPU structure</label></li>
+        <li><input type="checkbox" id="comp01c"><label for="comp01c">Buses</label></li>
+        <li><input type="checkbox" id="comp01d"><label for="comp01d">Fetch–Decode–Execute cycle</label></li>
+        <li><input type="checkbox" id="comp01e"><label for="comp01e">CPU performance factors</label></li>
+        <li><input type="checkbox" id="comp01f"><label for="comp01f">Von Neumann vs Harvard</label></li>
+        <li><input type="checkbox" id="comp01g"><label for="comp01g">RISC vs CISC</label></li>
+        <li><input type="checkbox" id="comp01h"><label for="comp01h">Multicore and parallel systems</label></li>
+        <li><input type="checkbox" id="comp01i"><label for="comp01i">Input/output/storage devices</label></li>
+        <li><input type="checkbox" id="comp01j"><label for="comp01j">RAM vs ROM</label></li>
+        <li><input type="checkbox" id="comp01k"><label for="comp01k">Virtual storage</label></li>
+        <li><input type="checkbox" id="comp01l"><label for="comp01l">Storage types</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 02 – SOFTWARE & OPERATING SYSTEMS -->
+    <li>
+      <input type="checkbox" id="component02">
+      <label for="component02"><strong>Component 02 – Software & Operating Systems</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp02a"><label for="comp02a">Purpose and functions of OS</label></li>
+        <li><input type="checkbox" id="comp02b"><label for="comp02b">Memory management</label></li>
+        <li><input type="checkbox" id="comp02c"><label for="comp02c">Interrupts</label></li>
+        <li><input type="checkbox" id="comp02d"><label for="comp02d">Scheduling algorithms</label></li>
+        <li><input type="checkbox" id="comp02e"><label for="comp02e">Types of OS</label></li>
+        <li><input type="checkbox" id="comp02f"><label for="comp02f">BIOS, drivers, VMs</label></li>
+        <li><input type="checkbox" id="comp02g"><label for="comp02g">Applications vs utilities</label></li>
+        <li><input type="checkbox" id="comp02h"><label for="comp02h">Open vs closed source</label></li>
+        <li><input type="checkbox" id="comp02i"><label for="comp02i">Translators</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 03 – PROGRAMMING FUNDAMENTALS -->
+    <li>
+      <input type="checkbox" id="component03">
+      <label for="component03"><strong>Component 03 – Programming Fundamentals</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp03a"><label for="comp03a">Variables and constants</label></li>
+        <li><input type="checkbox" id="comp03b"><label for="comp03b">Program flow</label></li>
+        <li><input type="checkbox" id="comp03c"><label for="comp03c">Operators</label></li>
+        <li><input type="checkbox" id="comp03d"><label for="comp03d">String handling</label></li>
+        <li><input type="checkbox" id="comp03e"><label for="comp03e">File handling</label></li>
+        <li><input type="checkbox" id="comp03f"><label for="comp03f">Procedures and functions</label></li>
+        <li><input type="checkbox" id="comp03g"><label for="comp03g">Assembly basics</label></li>
+        <li><input type="checkbox" id="comp03h"><label for="comp03h">Little Man Computer</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 04 – EXCHANGING DATA -->
+    <li>
+      <input type="checkbox" id="component04">
+      <label for="component04"><strong>Component 04 – Exchanging Data</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp04a"><label for="comp04a">Databases</label></li>
+        <li><input type="checkbox" id="comp04b"><label for="comp04b">Entity Relationship Diagrams</label></li>
+        <li><input type="checkbox" id="comp04c"><label for="comp04c">Networks</label></li>
+        <li><input type="checkbox" id="comp04d"><label for="comp04d">Internet structure</label></li>
+        <li><input type="checkbox" id="comp04e"><label for="comp04e">Web technologies</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 05 – DATA REPRESENTATION & DATA STRUCTURES -->
+    <li>
+      <input type="checkbox" id="component05">
+      <label for="component05"><strong>Component 05 – Data Representation & Data Structures</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp05a"><label for="comp05a">Primitive data types</label></li>
+        <li><input type="checkbox" id="comp05b"><label for="comp05b">Binary, two’s complement, hex</label></li>
+        <li><input type="checkbox" id="comp05c"><label for="comp05c">Floating point representation</label></li>
+        <li><input type="checkbox" id="comp05d"><label for="comp05d">ASCII and Unicode</label></li>
+        <li><input type="checkbox" id="comp05e"><label for="comp05e">Data structures</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 06 – BOOLEAN LOGIC -->
+    <li>
+      <input type="checkbox" id="component06">
+      <label for="component06"><strong>Component 06 – Boolean Logic</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp06a"><label for="comp06a">Boolean operators</label></li>
+        <li><input type="checkbox" id="comp06b"><label for="comp06b">Truth tables</label></li>
+        <li><input type="checkbox" id="comp06c"><label for="comp06c">Logic gate diagrams</label></li>
+        <li><input type="checkbox" id="comp06d"><label for="comp06d">Boolean expressions</label></li>
+        <li><input type="checkbox" id="comp06e"><label for="comp06e">Karnaugh maps</label></li>
+      </ul>
+    </li>
+
+    <!-- COMPONENT 07 – LEGAL, MORAL, ETHICAL & CULTURAL ISSUES -->
+    <li>
+      <input type="checkbox" id="component07">
+      <label for="component07"><strong>Component 07 – Legal, Moral, Ethical & Cultural Issues</strong></label>
+      <ul>
+        <li><input type="checkbox" id="comp07a"><label for="comp07a">Data Protection Act</label></li>
+        <li><input type="checkbox" id="comp07b"><label for="comp07b">Computer Misuse Act</label></li>
+        <li><input type="checkbox" id="comp07c"><label for="comp07c">Copyright, Designs and Patents Act</label></li>
+        <li><input type="checkbox" id="comp07d"><label for="comp07d">Regulation of Investigatory Powers Act</label></li>
+        <li><input type="checkbox" id="comp07e"><label for="comp07e">Ethical issues: AI, decision making, workforce, monitoring, piracy, environment, censorship</label></li>
+        </ul>
+        </li>
+    <!-- PROGRAMMING SECTOR -->
+    <li>
+      <input type="checkbox" id="programmingSector">
+      <label for="programmingSector"><strong>Programming Sector – Algorithms & Problem Solving</strong></label>
+      <ul>
+        <!-- Computational Thinking -->
+        <li>
+          <input type="checkbox" id="progSecA">
+          <label for="progSecA">Thinking</label>
+          <ul>
+            <li><input type="checkbox" id="progSecA1"><label for="progSecA1">Abstraction (why and how)</label></li>
+            <li><input type="checkbox" id="progSecA2"><label for="progSecA2">Differences between abstraction and reality</label></li>
+            <li><input type="checkbox" id="progSecA3"><label for="progSecA3">Decomposition</label></li>
+            <li><input type="checkbox" id="progSecA4"><label for="progSecA4">Identifying inputs and outputs</label></li>
+            <li><input type="checkbox" id="progSecA5"><label for="progSecA5">Preconditions</label></li>
+            <li><input type="checkbox" id="progSecA6"><label for="progSecA6">Reusable components</label></li>
+            <li><input type="checkbox" id="progSecA7"><label for="progSecA7">Procedural thinking</label></li>
+            <li><input type="checkbox" id="progSecA8"><label for="progSecA8">Logical thinking and decision points</label></li>
+          </ul>
+        </li>
+
+        <!-- Programming Techniques -->
+        <li>
+          <input type="checkbox" id="progSecB">
+          <label for="progSecB">Programming Techniques</label>
+          <ul>
+            <li><input type="checkbox" id="progSecB1"><label for="progSecB1">Sequence, selection, iteration</label></li>
+            <li><input type="checkbox" id="progSecB2"><label for="progSecB2">If / else / switch-case</label></li>
+            <li><input type="checkbox" id="progSecB3"><label for="progSecB3">For, while, do-until loops</label></li>
+            <li><input type="checkbox" id="progSecB4"><label for="progSecB4">Global vs local variables</label></li>
+            <li><input type="checkbox" id="progSecB5"><label for="progSecB5">Procedures vs functions</label></li>
+            <li><input type="checkbox" id="progSecB6"><label for="progSecB6">Parameter passing: by value / by reference</label></li>
+            <li><input type="checkbox" id="progSecB7"><label for="progSecB7">Use of an IDE for debugging</label></li>
+          </ul>
+        </li>
+
+        <!-- Algorithms -->
+        <li>
+          <input type="checkbox" id="progSecC">
+          <label for="progSecC">Algorithms</label>
+          <ul>
+            <li><input type="checkbox" id="progSecC1"><label for="progSecC1">Write algorithms using pseudocode</label></li>
+            <li><input type="checkbox" id="progSecC2"><label for="progSecC2">Understand OCR pseudocode conventions</label></li>
+            <li><input type="checkbox" id="progSecC3"><label for="progSecC3">Arrays are 0-indexed</label></li>
+            <li><input type="checkbox" id="progSecC4"><label for="progSecC4">File handling in pseudocode</label></li>
+            <li><input type="checkbox" id="progSecC5"><label for="progSecC5">Linear search</label></li>
+            <li><input type="checkbox" id="progSecC6"><label for="progSecC6">Binary search</label></li>
+            <li><input type="checkbox" id="progSecC7"><label for="progSecC7">Bubble sort</label></li>
+            <li><input type="checkbox" id="progSecC8"><label for="progSecC8">Insertion sort</label></li>
+            <li><input type="checkbox" id="progSecC9"><label for="progSecC9">Implement searches and sorts</label></li>
+            <li><input type="checkbox" id="progSecC10"><label for="progSecC10">Compare algorithm efficiency and suitability</label></li>
+          </ul>
+        </li>
+
+        <!-- Software Development & Testing -->
+        <li>
+          <input type="checkbox" id="progSecD">
+          <label for="progSecD">Software Development & Testing</label>
+          <ul>
+            <li><input type="checkbox" id="progSecD1"><label for="progSecD1">Waterfall model</label></li>
+            <li><input type="checkbox" id="progSecD2"><label for="progSecD2">Agile methodologies</label></li>
+            <li><input type="checkbox" id="progSecD3"><label for="progSecD3">Extreme programming</label></li>
+            <li><input type="checkbox" id="progSecD4"><label for="progSecD4">Spiral model</label></li>
+            <li><input type="checkbox" id="progSecD5"><label for="progSecD5">Rapid application development (RAD)</label></li>
+            <li><input type="checkbox" id="progSecD6"><label for="progSecD6">Test strategies: black box, white box, alpha, beta</label></li>
+            <li><input type="checkbox" id="progSecD7"><label for="progSecD7">Use suitable test data</label></li>
+            <li><input type="checkbox" id="progSecD8"><label for="progSecD8">Evaluate solutions</label></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+     
+
